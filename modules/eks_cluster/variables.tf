@@ -36,7 +36,7 @@ variable "argocd_secret_manager_name_suffix" {
 variable "workload_repo_url" {
   type        = string
   description = "Git repo URL for the ArgoCD workload deployment"
-  default     = "https://github.com/aws-samples/eks-blueprints-workloads.git"
+  default     = "https://github.com/isanasan/eks-blueprints-workloads.git"
 }
 
 variable "workload_repo_revision" {
